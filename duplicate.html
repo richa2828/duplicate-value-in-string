@@ -1,0 +1,34 @@
+<html>
+    <head>
+
+    </head>
+    <body>
+  
+
+ <script>
+var str=["monday","tuesday","wednesday","thrusday","friday","monday","tuesday"]
+var duplicate=0;
+var duplicatestr=[]
+for(var i=0;i<str.length;i++)
+{
+    for(var j=i+1;j<str.length;j++)
+    {
+    if(str[i]==str[j])
+    {
+        duplicate++;
+        duplicatestr.push(str[i])
+        break;
+
+    }}}
+    document.write(`count the diplicate value:--${duplicate}<br>`)
+    document.write(`duplicate value is:-${duplicatestr}<br>`)
+
+ 
+
+
+ 
+
+ </script>
+        
+    </body>
+</html>
